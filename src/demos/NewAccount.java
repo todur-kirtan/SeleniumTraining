@@ -83,34 +83,34 @@ public class NewAccount {
 				     driver.findElement(By.name("submit")).click();
 		
 	
-		//Radio button algorithm
-//		if(radiobutton.equalsIgnoreCase("option2")) {
-//			option2Element.click();
-//		}
-//		else {
-//			option1Element.click();
+				     //Radio button algorithm
+				     //		if(radiobutton.equalsIgnoreCase("option2")) {
+				     //			option2Element.click();
+				     //		}
+				     //		else {
+				     //			option1Element.click();
 
-//		}
-		
-		//Check Box algorithm
-		
-//		if(checkbox1) {
-//			if(!checkbox1Element.isSelected()) {
-//				checkbox1Element.click();
-//			}
-//		}
-//		else {
-//			if(checkbox1Element.isSelected()) {
-//				checkbox1Element.click();
-//			}
-//		}
-//		
-//		                
-//		checkbox2Element.click();                //Checkbox button
+				     //		}
+
+				     //Check Box algorithm
+
+				     //		if(checkbox1) {
+				     //			if(!checkbox1Element.isSelected()) {
+				     //				checkbox1Element.click();
+				     //			}
+				     //		}
+				     //		else {
+				     //			if(checkbox1Element.isSelected()) {
+				     //				checkbox1Element.click();
+				     //			}
+				     //		}
+				     //		
+				     //		                
+				     //		checkbox2Element.click();                //Checkbox button
 		
 		
 		     
-		// 4.Get confirmation
+				     // 4.Get confirmation
 
 				     String conf = driver.findElement(By.linkText("SIGN-OFF")).getText();
 				     String Expected = "SIGN-OFF";
@@ -122,7 +122,7 @@ public class NewAccount {
 				     }
 				     
 
-		// 5.Close the Browser
+				     // 5.Close the Browser
 				     driver.close();
 	
 
