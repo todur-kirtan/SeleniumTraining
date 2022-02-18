@@ -3,6 +3,7 @@
   <test name="Test">
     <classes>
       <class name="smoketests.ATagsTest"/>
+      <class name="smoketests.LoginPresentTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
